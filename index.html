@@ -7,9 +7,30 @@
     <title>Document</title>
 </head>
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-image: url(bg1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+    }
+  .button {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    background:#f9a29d;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color:rgb(40, 29, 189);
+    font-weight: bold;
+    line-height: 20px;
+}
     .box{
+        position: flex;
     display: none;
     width: 100%;
+    overflow: hidden;
 }
 
 a:hover + .box,.box:hover{
@@ -19,14 +40,24 @@ a:hover + .box,.box:hover{
 }
 </style>
 <body>
-    <main>
-        <section>
+    <main><center>
+    <section id="demo">
             <div>
                 <h2>Hi web traveller, I am Saranjeet Mondal. </h2>
                 <h3>Welcome to my WEB development page, click below links to visit my small projects ,Wish you nice day. </h3>
             </div>
+            <br>
             <div id="link">
-                <a href="https://slayer-saran-2002.github.io/Web-Development/colourfull_rainfall/" target="_blank">click to visit RGB rain</a>
+                <a href="https://slayer-saran-2002.github.io/Web-Development/school-website-fully-responsive/" target="_blank"class="button">click to visit my School webpage</a>
+                <!-- <div class="box">
+                    <iframe src="https://slayer-saran-2002.github.io/Web-Development/school-website-fully-responsive/" width = "500px" height = "500px">
+                    </iframe>
+                </div> -->
+            </div>
+            <br>
+            <div id="link">
+                <a href="https://slayer-saran-2002.github.io/Web-Development/colourfull_rainfall/" target="_blank" class="button">click to visit RGB rain </a>
+
                 <!-- <div class="box">
                     <iframe src="https://slayer-saran-2002.github.io/Web-Development/colourfull_rainfall/"width = "500px" height = "500px">
                     </iframe>
@@ -34,7 +65,15 @@ a:hover + .box,.box:hover{
                 </div>
                 <br>
                 <div id="link">
-                    <a href="https://slayer-saran-2002.github.io/Web-Development/text_potrait/" target="_blank">click to visit Text Potrait</a>
+                    <a href="https://slayer-saran-2002.github.io/Web-Development/Multi-steps-form/" target="_blank"class="button">click to visit Multi steps form demo</a>
+                    <div class="box">
+                        <iframe src="https://slayer-saran-2002.github.io/Web-Development/Multi-steps-form/" width = "500px" height = "500px">
+                        </iframe>
+                    </div>
+                </div>
+                <br>
+                <div id="link">
+                    <a href="https://slayer-saran-2002.github.io/Web-Development/text_potrait/" target="_blank"class="button">click to visit Text Potrait</a>
                     <div class="box">
                         <iframe src="https://slayer-saran-2002.github.io/Web-Development/text_potrait/" width = "500px" height = "500px">
                         </iframe>
@@ -42,23 +81,39 @@ a:hover + .box,.box:hover{
                 </div>
                 <br>
                 <div id="link">
-                    <a href="https://slayer-saran-2002.github.io/Web-Development/Colour-magic/" target="_blank">click to visit Colour Disco</a>
+                    <a href="https://slayer-saran-2002.github.io/Web-Development/login-form/" target="_blank"class="button">click to visit log-In form demo</a>
                     <div class="box">
-                        <iframe src="https://slayer-saran-2002.github.io/Web-Development/Colour-magic/" width = "500px" height = "500px">
+                        <iframe src="https://slayer-saran-2002.github.io/Web-Development/login-form/" width = "500px" height = "500px">
                         </iframe>
-                
                     </div>
                 </div>
                 <br>
-
-        </section>
-        <section>
+                <div id="link">
+                    <a href="https://slayer-saran-2002.github.io/Web-Development/Colour-magic/" target="_blank"class="button">click to visit Colour Disco</a>
+                    <div class="box">
+                        <iframe src="https://slayer-saran-2002.github.io/Web-Development/Colour-magic/" width = "500px" height = "500px">
+                        </iframe>
+                        
+                    </div>
+                </div>
+                <br>
+                <!-- <div id="link">
+                    <a href="https://slayer-saran-2002.github.io/Web-Development/text_potrait/" target="_blank"class="button">click to visit Text Potrait</a>
+                    <div class="box">
+                        <iframe src="https://slayer-saran-2002.github.io/Web-Development/text_potrait/" width = "500px" height = "500px">
+                        </iframe>
+                    </div>
+                </div>
+                <br> -->
+                
+            </section>
+            <section>
             <a href="https://en.wikipedia.org/">Wikipedia</a>
   <div class="box">
      <iframe src="https://en.wikipedia.org/" width = "500px" height = "500px">
      </iframe>
   </div> 
-        </section>
+        </section></center>
     </main>
 </body>
 </html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="hero">
+    <div class="form_box">
+      <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" name="button" onclick="Login()"> User Login</button>
+        <button type="button" class="toggle-btn" name="button" onclick="LoginAgent()"> Login as Agent</button>
+      </div>
+
+      <form id="Login" class="input-gr" action="index.html" method="post">
+        <input class="input-fl" type="text" placeholder="Aadhar Number" required name="" value="">
+        <input class="input-fl" type="text" placeholder="Enter Password" required name="" value="">
+      <input class="check-box"type="checkbox" name="" value="">
+      <span> Remember me</span><br><br>
+        <a href="#">Or Login with OTP</a><br><br>
+        <button type="Submit" class="submit-btn"name="button">Login</button>
+      </form>
+
+      <form id="LoginAgent"class="input-gr" action="index.html" method="post">
+        <input class="input-fl" type="text" placeholder="User ID" required name="" value="">
+        <input class="input-fl" type="text" placeholder="Enter Password" required name="" value="">
+      <input class="check-box"type="checkbox" name="" value="">
+      <span>Remember me</span><br><br>
+        <button type="Submit" class="submit-btn"name="button">Login</button>
+      </form>
+    </div>
+  </div>
+<script>
+  var x = document.getElementById("Login");
+  var y = document.getElementById("LoginAgent");
+  var z = document.getElementById("btn");
+
+  function LoginAgent() {
+    x.style.left = "-400px"
+    y.style.left = "100px"
+    z.style.left = "130px"
+
+  }
+  function Login() {
+    x.style.left = "100px"
+    y.style.left = "470px"
+    z.style.left = "0"
+
+  }
+</script>
+</body>
+</html>
